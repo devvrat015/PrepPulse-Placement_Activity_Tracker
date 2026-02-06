@@ -17,7 +17,7 @@ Complete guide to deploy the MERN application to production.
 Edit `backend/.env`:
 
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/placement-tracker?retryWrites=true&w=majority
+
 JWT_SECRET=your_super_secret_key_here_change_this_to_something_very_long_and_random
 PORT=5000
 NODE_ENV=production
@@ -149,9 +149,6 @@ npm run build
 
 Example URI:
 
-```
-mongodb+srv://user:password@cluster.mongodb.net/placement-tracker?retryWrites=true&w=majority
-```
 
 ## Step 4: Deploy Frontend
 
